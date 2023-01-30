@@ -35,12 +35,26 @@ body {
   padding: 1rem;
 }
 
+.cyan-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cyan-link:hover {
+  color: var(--cyan);
+}
+
 img {
   max-width: 100%;
 }
-
 .nft-img {
   border-radius: 8px;
+}
+
+.nft-img:hover {
+  background: var(--cyan);
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
 .title {
