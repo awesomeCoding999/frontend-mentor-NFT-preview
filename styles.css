@@ -18,4 +18,30 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: var(--very-dark-blue);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  background: var(--dark-blue2);
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  width: 327px;
+}
+
+footer {
+  color: var(--white);
+  text-align: center;
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:hover {
+  color: var(--soft-blue);
 }
