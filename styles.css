@@ -36,11 +36,11 @@ body {
 }
 
 .cyan-link {
-  display: inline-block;
   text-decoration: none;
 }
 
-.cyan-link:hover {
+.cyan-link:hover,
+.title:hover {
   color: var(--cyan);
 }
 
@@ -133,8 +133,8 @@ img {
 
 .divider {
   border: none;
-  height: 1px;
-  background: var(--very-dark-blue);
+  height: 2px;
+  background: var(--grey-blue);
   margin-bottom: 1rem;
 }
 
@@ -170,4 +170,14 @@ footer a {
 
 footer a:hover {
   color: var(--soft-blue);
+}
+
+@media (min-width: 1024px) {
+  .title {
+    margin-bottom: 1rem;
+  }
+
+  .nft-container {
+    margin: 1.5rem 0;
+  }
 }
